@@ -16,4 +16,9 @@ public class CabinCrewTest {
     public void cabinCrewHasRank(){
         assertEquals(RankType.FLIGHTATTENDANT, cabinCrew.getRank());
     }
+
+    @Test
+    public void canMakeAnnouncement(){
+        assertEquals("You all stink", cabinCrew.messageToPassengers("You all stink"));
+    }
 }

@@ -10,4 +10,8 @@ public class CabinCrew extends Person{
     public RankType getRank(){
         return this.rank;
     }
+
+    public String messageToPassengers(String message){
+        return message;
+    }
 }
