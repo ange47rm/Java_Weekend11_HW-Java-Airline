@@ -1,6 +1,6 @@
 public class Plane {
 
-    PlaneType type;
+    private PlaneType type;
 
     public Plane(PlaneType type){
         this.type = type;
